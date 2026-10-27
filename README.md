@@ -24,4 +24,11 @@ streamlit run app.py
 Place the trained `age_model.keras` file in the same folder as `app.py`.
 
 ## Limitations
-Predictions may be affected by lighting, image angles, and image quality. This project is for educational purposes.
+
+Skewed Data: The age distribution is imbalanced, which may affect training and reduce prediction accuracy for underrepresented age groups.
+
+Incorrect Labels: Some images have inaccurate age labels, which can negatively affect model performance.
+
+Data Cleaning: A complete review and correction of mislabeled images was not feasible due to the significant time required.
+
+Image Quality: Lighting, facial angles, and image quality may affect prediction accuracy.
